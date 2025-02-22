@@ -29,7 +29,7 @@ python3 coordinate_scan_plotter.py gaussian1.out gaussian2.out [further argument
 >
 > ```bash
 > pip install matplotlib
->``
+>```
 
 ## Contact
 
