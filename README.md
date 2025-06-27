@@ -3,7 +3,7 @@
 This Python program calculates the weight of a solid for the preparation of solutions (molarity or mass percentage) as well as dilution of solution by mixing cross, and conversion from molarity to mass percentage.
 Execute the script as follows:
 
-```python
+```bash
 python3 weighing_calc.py
 ```
 
@@ -19,7 +19,7 @@ python3 weighing_calc.py
 This Python program is designed for plotting coordinate scans calculated with the Gaussian quantum chemical calculation program.
 Execute the script as follows, where ```gaussian1.out``` and ```gaussian2.out``` are Gaussian calculation outputs:
 
-```python
+```bash
 python3 coordinate_scan_plotter.py gaussian1.out gaussian2.out [further arguments]
 ```
 
@@ -30,6 +30,14 @@ python3 coordinate_scan_plotter.py gaussian1.out gaussian2.out [further argument
 > ```bash
 > pip install matplotlib
 >```
+
+## orca_checker.py
+This Python script checks an ORCA geometry optimization file for completeness and correct termination. If the calculation is still ongoing, the last uncomplete optimization cycle is removed from the output file. This is necessary for plotting geometry optimization correctly e.g. in Molden.
+Execute the script as follows:
+
+```bash
+python3 orca_checker.py orca1.out [further arguments]
+```
 
 ## Contact
 
