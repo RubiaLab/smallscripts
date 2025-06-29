@@ -39,6 +39,15 @@ Execute the script as follows:
 python3 orca_checker.py orca1.out [further arguments]
 ```
 
+## doris.sh
+This bash script fetches the bibliographic data from a DOI to a RIS, BibTeX or CSL-JSON file and opens the respective DOI in the browser.
+To execute the script, first make it executable and then open use it as follows:
+
+```bash
+chmod +x doris.sh
+./doris.sh <DOI> [options]
+```
+
 ## Contact
 
 Alexander Krappe – rubialab@rubialab.de
