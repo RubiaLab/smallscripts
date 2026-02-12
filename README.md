@@ -48,6 +48,21 @@ chmod +x doris.sh
 ./doris.sh <DOI> [options]
 ```
 
+## mass_check.py
+This program uses the exact mass of a molecule and calculates the ppm deviation from the theoretical m/z to a measured value. Different modes of ionization are available: EI, ESI+, ESI-, ESI+Na, ESI+K.
+Execute the script as follows:
+```bash
+python3 mass_check.py
+```
+
+> [!NOTE]
+>
+> This program requires the package molmass which can be installed using pip:
+>
+> ```bash
+> pip install molmass
+> ```
+
 ## Contact
 
 Alexander Krappe – rubialab@rubialab.de
