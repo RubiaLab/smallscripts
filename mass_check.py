@@ -68,9 +68,9 @@ def main():
 		print("\n--- Result ---")
 		print(f"Molecular formula: {formula}")
 		print(f"Ionization type:   {mode}")
-		print(f"Theoretical m/z:   {theo:.6f}")
-		print(f"Measured m/z:      {measured_mz:.6f}")
-		print(f"ppm deviation:     {ppm:+.1f} ppm")
+		print(f"Theoretical m/z:   {theo:.4f}")
+		print(f"Measured m/z:      {round(measured_mz, 4)}")
+		print(f"ppm deviation:     {round(ppm, 1)} ppm")
 
 	except ValueError as e:
 		print(f"Input error: {e}")
